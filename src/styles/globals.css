@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu{
+    @apply font-thin hover:text-sky-500 hover:border-sky-500 hover:border-b-2 transition duration-300
+}
+
+.menu.active{
+    @apply text-sky-500 border-b-2 border-sky-500
+}
