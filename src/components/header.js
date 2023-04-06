@@ -1,10 +1,11 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Header({pageName}){
     return (
     <header className="m-4">
        
-    <img src="/web_logo.png" className="w-16 m-auto pb-2"/>
+    <Image src={"/web_logo.png"} className="m-auto pb-2" width={64} height={64} alt="logo"/>
      
      <h1 className="text-2xl text-center font-bold italic"> Patar.dev </h1>
      <div className="w-3/4 sm:w-2/3 md:w-1/2 mx-auto m-2 pt-0.5 bg-gradient-to-r from-blue-500 to-sky-500 h-1"></div>
