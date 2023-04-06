@@ -3,8 +3,64 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Header from "../components/header"
 import Footer from "@/components/footer";
+import ProjectCard from "@/components/projectCard";
 
 export default function Project() {
+
+    const projects = [
+        {
+            "picture" : "/project/sigarpu-polda-lampung.webp",
+            "title" : "SIGARPU - POLDA LAMPUNG",
+            "role" : "Software Engineer",
+            "description" : "an information system developed to track data on violations by Lampung regional police personnel.",
+            "responsibilities" : [
+                "Analyze user requirement",
+                "Develop desktop-based systems and integrate with APIs.",
+                "Develop API to manage personnel data.",
+                "Perform module integration testing"
+            ],
+            "techStack" : ["Lumen", "RestAPI", "NodeJS", "ElectronJS", "ExpressJS", "Bootstrap", "Postman", "MySQL"]
+        },
+        {
+            "picture" : "/project/brantas-abipraya-spreadsheet-converter.webp",
+            "title" : "Spreadsheet Converter System - Brantas Abipraya",
+            "role" : "Back-end Developer",
+            "description" : "a system developed for data validation from excel or csv and then stored in the data warehouse.",
+            "responsibilities" : [
+                "Analyze user requirement",
+                "Develop API for Authentication using JWT.",
+                "Develop API to import data from 8 types of excel or csv to database. Before importing, all data in the file must be validated.",
+                "Setup linux server (CentOS) for development or testing."
+            ],
+            "techStack" : ["CodeIgniter", "RestAPI", "Vultr", "JWT", "Postman", "PostgreSQL", "Linux"]
+        },
+        {
+            "picture" : "/project/pekon-wonodadi-smart-village-information-system.webp",
+            "title" : "Pekon Wonodadi Service Administration System",
+            "role" : "Web Developer",
+            "description" : "an information system developed to help the Wonodadi village in realizing the smart village concept in the industrial era 4.0 .",
+            "responsibilities" : [
+                "Analyze user requirement",
+                "Develop an Administrative Letter Module which has 20 types of administrative letters.",
+                "Perform module testing using the blackbox method and user acceptance testing",
+                "Perform system deployment"
+            ],
+            "techStack" : ["CodeIgniter", "Bootstrap", "Linux", "MySQL"]
+        },  
+        {
+            "picture" : "/project/polresta-bandar-lampung-informtaion-system.webp",
+            "title" : "Polresta Bandar Lampung Infomation System",
+            "role" : "Web Developer",
+            "description" : "an information system created with the aim of facilitating the public in getting the latest news and facilitating the public in reporting security and public order issues.",
+            "responsibilities" : [
+                "Develop News Management Module",
+                "Develop Gallery Management Module",
+                "Develop Proof Management Module"
+            ],
+            "techStack" : ["Laravel", "Bootstrap", "MySQL"]
+        },
+    ]
+
   return (
     <>
       <Head>
@@ -16,72 +72,16 @@ export default function Project() {
       <Header pageName={"project"}></Header>
 
       <main className="container mx-auto w-3/4 md:w-2/3 mb-auto">
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
-            <div className="w-full px-4 flex flex-wrap justify-center">
-                <div className="mb-12 p-4">
-                    <div className="rounded-md shadow-md overflow-hidden">
-                        <img src="720_image.jpg" />
-                    </div>
-                    <h3 className="font-semibold text-dark text-xl mt-5 mb-3">Irham Kentu Landing Page</h3>
-                    <p className="font-medium text-base text-secondary">Lorem Ipsum Dolo Sit amet</p>
-                </div>
-            </div>
-            <div className="w-full px-4 flex flex-wrap justify-center">
-                <div className="mb-12 p-4">
-                    <div className="rounded-md shadow-md overflow-hidden">
-                        <img src="720_image.jpg" />
-                    </div>
-                    <h3 className="font-semibold text-dark text-xl mt-5 mb-3">Irham Kentu Landing Page</h3>
-                    <p className="font-medium text-base text-secondary">Lorem Ipsum Dolo Sit amet</p>
-                </div>
-            </div>
-        </div> */}
+        <blockquote className="text-center text-xl italic font-semibold pt-2 pb-8">
+            <p>"For some people, words are not enough, that's why I prove it."</p>
+        </blockquote>
 
-<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-    <div className="w-full flex flex-wrap justify-center border-2">
-        <div className="mb-12">
-            <div className="shadow-md overflow-hidden">
-                <img src="https://www.rbw.it/en/wp-content/uploads/sites/4/2016/10/1280x720-text.png" />
-            </div>
-            <div className="container p-4">
-                <h3 className="font-semibold text-dark text-xl">Irham Kentu Landing Page</h3>
-                <p className="text-sm text-secondary">Lorem Ipsum Dolo Sit amet</p>
-            </div>
-        </div>
-    </div>
-    <div className="w-full flex flex-wrap justify-center border-2">
-        <div className="mb-12">
-            <div className="shadow-md overflow-hidden">
-                <img src="https://www.rbw.it/en/wp-content/uploads/sites/4/2016/10/1280x720-text.png" />
-            </div>
-            <div className="container p-4">
-                <h3 className="font-semibold text-dark text-xl">Irham Kentu Landing Page</h3>
-                <p className="text-sm text-secondary">Lorem Ipsum Dolo Sit amet</p>
-            </div>
-        </div>
-    </div>
-    <div className="w-full flex flex-wrap justify-center border-2">
-        <div className="mb-12">
-            <div className="shadow-md overflow-hidden">
-                <img src="https://www.rbw.it/en/wp-content/uploads/sites/4/2016/10/1280x720-text.png" />
-            </div>
-            <div className="container p-4">
-                <h3 className="font-semibold text-dark text-xl">Irham Kentu Landing Page</h3>
-                <p className="text-sm text-secondary">Lorem Ipsum Dolo Sit amet</p>
-            </div>
-        </div>
-    </div>
-    <div className="w-full flex flex-wrap justify-center border-2">
-        <div className="mb-12">
-            <div className="shadow-md overflow-hidden">
-                <img src="https://www.rbw.it/en/wp-content/uploads/sites/4/2016/10/1280x720-text.png" />
-            </div>
-            <div className="container p-4">
-                <h3 className="font-semibold text-dark text-xl">Irham Kentu Landing Page</h3>
-                <p className="text-sm text-secondary">Lorem Ipsum Dolo Sit amet</p>
-            </div>
-        </div>
-    </div>
+<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+    {projects.map((value, index) => {
+        return (
+            <ProjectCard key={index} data={value}/>
+        )
+    })}
 </div>
 
       </main>
