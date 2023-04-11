@@ -17,7 +17,7 @@ export default function About() {
       <Header pageName={"about"}></Header>
 
       <main className="container mx-auto w-3/4 md:w-1/2">
-        <p className="text-white pb-2">Hi, I'm Patar Martua Doli Siahaan, graduate of Computer Science since December 2021.</p>
+        <p className="text-white pb-2">Hi, I&apos;m Patar Martua Doli Siahaan, graduate of Computer Science since December 2021.</p>
         <p className="text-white pb-2">I am a software engineer who has a high interest in software development, able to develop web (front-end and back-end), mobile and desktop applications. In the past 2 years, I have successfully developed web and desktop applications using PHP (Laravel, Lumen, CodeIgniter) and NodeJs (ReactJs, ExpressJs) frameworks.</p>
         <p className="text-white pb-2">I also have 4 years experience in developing an automation script that managed to get over 10,000 items in a limited quantity using imacros, javascript, python and a little bit of server management.</p>
         <p className="text-white pb-2">I have several portfolios that can be seen on the project menu. If you want to talk about software development, software automation, coding or anything else, just <Link href="/reachme" className={`text-bold text-sky-500 menu`}>Reach Me!</Link></p>
