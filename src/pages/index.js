@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Header from "../components/header"
 import Footer from "@/components/footer";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -16,11 +17,11 @@ export default function About() {
       <Header pageName={"about"}></Header>
 
       <main className="container mx-auto w-3/4 md:w-1/2">
-        <p className="text-white">Demikian pula, tidak adakah orang yang mencintai atau mengejar atau ingin mengalami penderitaan, bukan semata-mata karena penderitaan itu sendiri, tetapi karena sesekali terjadi keadaan di mana susah-payah dan penderitaan dapat memberikan kepadanya kesenangan yang besar. Sebagai contoh sederhana, siapakah di antara kita yang pernah melakukan pekerjaan fisik yang berat, selain untuk memperoleh manfaat daripadanya? Tetapi siapakah yang berhak untuk mencari kesalahan pada diri orang yang memilih untuk menikmati kesenangan yang tidak menimbulkan akibat-akibat yang mengganggu, atau orang yang menghindari penderitaan yang tidak menghasilkan kesenangan?
-        </p>
+        <p className="text-white pb-2">Hi, I'm Patar Martua Doli Siahaan, graduate of Computer Science since December 2021.</p>
+        <p className="text-white pb-2">I am a software engineer who has a high interest in software development, able to develop web (front-end and back-end), mobile and desktop applications. In the past 2 years, I have successfully developed web and desktop applications using PHP (Laravel, Lumen, CodeIgniter) and NodeJs (ReactJs, ExpressJs) frameworks.</p>
+        <p className="text-white pb-2">I also have 4 years experience in developing an automation script that managed to get over 10,000 items in a limited quantity using imacros, javascript, python and a little bit of server management.</p>
+        <p className="text-white pb-2">I have several portfolios that can be seen on the project menu. If you want to talk about software development, software automation, coding or anything else, just <Link href="/reachme" className={`text-bold text-sky-500 menu`}>Reach Me!</Link></p>
         <br/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
       </main>
       
       <Footer/>
