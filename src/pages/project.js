@@ -9,6 +9,36 @@ export default function Project() {
 
     const projects = [
         {
+            "picture" : "/project/tokopedia-affiliate.webp",
+            "title" : "Affiliate - Tokopedia",
+            "role" : "Software Engineer",
+            "description" : "TBA.",
+            "responsibilities" : [
+                "TBA",
+            ],
+            "techStack" : ["Golang", "gRPC", "Microservices", "Redis", "RESTful API", "PostgreSQL"]
+        },
+        {
+            "picture" : "/project/tokopedia-seller-home.webp",
+            "title" : "Seller Home & Analytic - Tokopedia",
+            "role" : "Software Engineer",
+            "description" : "TBA.",
+            "responsibilities" : [
+                "TBA",
+            ],
+            "techStack" : ["Golang", "gRPC", "Microservices"]
+        },
+        {
+            "picture" : "/project/kompas-gramedia-etl.webp",
+            "title" : "ETL Project - Kompas Gramedia",
+            "role" : "Data Engineer",
+            "description" : "TBA.",
+            "responsibilities" : [
+                "TBA",
+            ],
+            "techStack" : ["Azure Data Factory", "Azure Data Flow", "MongoDB", "MySQL", "PostgreSQL"]
+        },
+        {
             "picture" : "/project/mighty.png",
             "title" : "MIGsys - Mitramas Infosys Global",
             "role" : "Software Engineer",
