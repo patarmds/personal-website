@@ -114,7 +114,7 @@ export default function Project() {
 
       <main className="container mx-auto w-3/4 md:w-2/3 mb-auto">
         <blockquote className="text-center text-xl italic font-semibold pt-2 pb-8">
-            <p>You don't have to be great to start, but you have to start to be great!</p>
+            <p>You don&apos;t have to be great to start, but you have to start to be great!</p>
         </blockquote>
 
 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
