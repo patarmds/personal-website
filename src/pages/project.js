@@ -9,6 +9,17 @@ export default function Project() {
 
     const projects = [
         {
+            "picture" : "/project/mighty.png",
+            "title" : "MIGsys - Mitramas Infosys Global",
+            "role" : "Software Engineer",
+            "description" : "An enterprise resource planning system to boost your employee performance and productivity.",
+            "responsibilities" : [
+                "Analyze user requirement",
+                "Collaborate with front-end",
+            ],
+            "techStack" : ["Laravel", "Restful API", "Postman", "MySQL"]
+        },
+        {
             "picture" : "/project/sigarpu-polda-lampung.webp",
             "title" : "SIGARPU - POLDA LAMPUNG",
             "role" : "Software Engineer",
@@ -73,7 +84,7 @@ export default function Project() {
 
       <main className="container mx-auto w-3/4 md:w-2/3 mb-auto">
         <blockquote className="text-center text-xl italic font-semibold pt-2 pb-8">
-            <p>&quot;For some people, words are not enough, that&apos;s why I prove it.&quot;</p>
+            <p>You don't have to be great to start, but you have to start to be great!</p>
         </blockquote>
 
 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">

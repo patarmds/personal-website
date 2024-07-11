@@ -39,8 +39,8 @@ export default function About() {
                             <p className="text-white pb-2 3xl:text-2xl">Passionate and detail-oriented Software Engineer with 4 years of experience in backend and full-stack development. Skilled in optimizing system performance, developing scalable applications, and automating processes. Adept at problem-solving and collaborating with cross-functional teams to deliver high-quality software solutions. Love a clean, simple, and efficient code. Adaptable and quick learner person.</p>
                         </div>
                     </div>
-                    <div className="3xl:w-1/3 xl:w-1/3 w-full lg:order-2 order-1">
-                        <img src={"/me.jpeg"} className="m-auto pb-2 rounded-full" alt="logo" />
+                    <div className="3xl:w-1/3 xl:w-1/3 w-full lg:order-2 order-1 ">
+                        <img src={"/me.jpeg"} className="m-auto pb-2 rounded-full relative z-1" alt="logo" />
                     </div>
                 </div>
 
