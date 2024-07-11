@@ -12,27 +12,27 @@ export default function Project() {
             "picture" : "/project/tokopedia-affiliate.webp",
             "title" : "Affiliate - Tokopedia",
             "role" : "Software Engineer",
-            "description" : "TBA.",
+            "description" : "Worked in the Tokopedia Affiliate team, and handled 3 projects including Affiliate Core (Attribution Flow, Fraud Detection), Affiliate Internal Tools, and Affiliate Wallet Manager.",
             "responsibilities" : [
                 "TBA",
             ],
-            "techStack" : ["Golang", "gRPC", "Microservices", "Redis", "RESTful API", "PostgreSQL"]
+            "techStack" : ["Golang", "gRPC", "Microservices", "Redis", "RESTful API", "PostgreSQL", "Git"]
         },
         {
             "picture" : "/project/tokopedia-seller-home.webp",
             "title" : "Seller Home & Analytic - Tokopedia",
             "role" : "Software Engineer",
-            "description" : "TBA.",
+            "description" : "Worked in the Tokopedia Seller Home & Analytics team, and handled 3 projects including Seller Insight Service, Merchant Data Center Service, Product Data Center Service.",
             "responsibilities" : [
                 "TBA",
             ],
-            "techStack" : ["Golang", "gRPC", "Microservices"]
+            "techStack" : ["Golang", "gRPC", "Microservices", "Git", "Redis", "GraphQL"]
         },
         {
             "picture" : "/project/kompas-gramedia-etl.webp",
             "title" : "ETL Project - Kompas Gramedia",
             "role" : "Data Engineer",
-            "description" : "TBA.",
+            "description" : "Collaborating with Kompas Gramedia to help with an automated ETL system using Microsoft Azure Data Factory.",
             "responsibilities" : [
                 "TBA",
             ],
